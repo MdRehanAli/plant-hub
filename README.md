@@ -1,16 +1,51 @@
-# React + Vite
+# 🌱 PlantHub | Shop, Care & Grow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🪴 Project Theme:
+**PlantHub** is an elegant single-page web application built for plant lovers who want to nurture and decorate their homes with healthy indoor plants. The platform allows users to explore plant care guides, buy plants, and book expert consultations — ensuring a greener and healthier living space during any season.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose:
+The main purpose of **Plant Hub** is to promote eco-friendly living by helping people easily buy, care for, and learn about indoor plants.  
+It connects plant enthusiasts with expert advice and care guides — creating a perfect blend of technology and nature.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Live Link:
+[👉 Visit Plant Hub Website](link)
 
-## Expanding the ESLint configuration
+## 🌿 Key Features:
+- 🏡 **Home Section:** Clean and attractive banner with call-to-action buttons.  
+- 🪴 **Shop Section:** Browse and purchase beautiful indoor plants with price and details.  
+- 🌸 **Care Guide Section:** Explore plant care tips for watering, light, and humidity.  
+- 🌼 **Consultation Booking:** Schedule one-on-one expert consultations for plant advice.  
+- 🌳 **About Section:** Learn about the Plant Hub mission and vision.  
+- 💬 **Contact Section:** Simple contact form with social links.  
+- 🌿 **Responsive Design:** Fully responsive on mobile, tablet, and desktop. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Technologies Used:
+- **HTML5**  
+- **CSS3 / Tailwind CSS / DaisyUI**  
+- **JavaScript (ES6)**  
+- **React.js**  
+- **React Router DOM**  
+- **Firebase Authentication**  
+
+---
+
+## 📦 NPM Packages Used:
+-    "@tailwindcss/vite": "^4.1.15",
+-    "react": "^19.1.1",
+-    "react-dom": "^19.1.1",
+-    "react-router": "^7.9.4",
+-    "tailwindcss": "^4.1.15"
+-
+-
+-
+-
+-
+-
+
+---
