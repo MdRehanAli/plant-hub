@@ -12,7 +12,7 @@ It connects plant enthusiasts with expert advice and care guides — creating a 
 ---
 
 ## 🔗 Live Link:
-[👉 Visit Plant Hub Website](link)
+[👉 Visit Plant Hub Website](https://plant-hub24.netlify.app/)
 
 ## 🌿 Key Features:
 - 🏡 **Home Section:** Clean and attractive banner with call-to-action buttons.  
@@ -29,9 +29,10 @@ It connects plant enthusiasts with expert advice and care guides — creating a 
 - **HTML5**  
 - **CSS3 / Tailwind CSS / DaisyUI**  
 - **JavaScript (ES6)**  
-- **React.js**  
-- **React Router DOM**  
-- **Firebase Authentication**  
+- **React.js (Vite)**  
+- **React Router DOM** 
+- **React Icons**  
+- **Firebase Authentication** 
 
 ---
 
