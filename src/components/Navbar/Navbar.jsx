@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-green-800 rounded-box z-1 mt-5 w-52 p-2 shadow">
                         {links}
                     </ul>
                 </div>
@@ -31,8 +31,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn mr-2">Login</a>
-                <a className="btn">Register</a>
+                <NavLink to='/login' className="p-2 btn bg-transparent text-white border-none shadow-none">Login</NavLink>
+                <NavLink to='/signup' className="p-2 btn bg-transparent text-white border-none shadow-none">SignUp</NavLink>
             </div>
         </div>
     );

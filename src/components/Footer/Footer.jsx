@@ -12,13 +12,13 @@ const Footer = () => {
             </nav>
             <nav>
                 <div className="grid grid-flow-col gap-4 text-5xl">
-                    <a className='p-1 rounded-full hover:bg-green-300'>
+                    <a className='p-1 rounded-full hover:scale-130 transition-transform duration-200'>
                         <FaInstagram></FaInstagram>
                     </a>
-                    <a className='p-1 rounded-full hover:bg-green-300'>
+                    <a className='p-1 rounded-full hover:scale-130 transition-transform duration-200'>
                         <FaFacebook></FaFacebook>
                     </a>
-                    <a className='p-1 rounded-full hover:bg-green-300'>
+                    <a className='p-1 rounded-full hover:scale-130 transition-transform duration-200'>
                         <SiPiapro></SiPiapro>
                     </a>
                 </div>
