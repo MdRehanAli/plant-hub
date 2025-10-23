@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import PlantCares from '../PlantCares/PlantCares';
+import Experts from '../Experts/Experts';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             </section>
             <main className='max-w-7xl mx-auto w-11/12'>
                 <PlantCares></PlantCares>
+                <Experts></Experts>
             </main>
         </div>
     );
