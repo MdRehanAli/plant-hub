@@ -7,15 +7,17 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './Banner.css';
 
-import slider1 from '../../src/assets/slider1.png';
-import slider2 from '../../src/assets/slider2.png';
-import slider3 from '../../src/assets/slider3.png';
-import slider4 from '../../src/assets/slider4.png';
-import slider5 from '../../src/assets/slider5.png';
-import slider6 from '../../src/assets/slider6.png';
-import slider7 from '../../src/assets/slider7.png';
-import slider8 from '../../src/assets/slider8.png';
-import slider9 from '../../src/assets/slider9.png';
+import logo from '../../assets/logo.png';
+
+import slider1 from '../../assets/slider1.png';
+import slider2 from '../../assets/slider2.png';
+import slider3 from '../../assets/slider3.png';
+import slider4 from '../../assets/slider4.png';
+import slider5 from '../../assets/slider5.png';
+import slider6 from '../../assets/slider6.png';
+import slider7 from '../../assets/slider7.png';
+import slider8 from '../../assets/slider8.png';
+import slider9 from '../../assets/slider9.png';
 
 const Banner = () => {
     const progressCircle = useRef(null);
@@ -39,26 +41,29 @@ const Banner = () => {
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
-                className="mySwiper"
+                className="mySwiper rounded-2xl"
             >
                 <SwiperSlide className='rounded-2xl'>
                     <div className="bg-cover bg-center text-white p-10 rounded-2xl"
                         style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider1})` }}>
-                        <h1 className='text-green-800 font-bold text-4xl'>Bring Nature Home</h1>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-white font-bold text-5xl'>Bring Nature Home</h1>
                         <p className='my-5'>Learn, nurture, and watch your plants thrive every season.</p>
-                        <p className='text-center'>PlantHub ensures excellence in both design and functionality. By blending elegant visuals with clean, efficient coding, PlantHub allows you to explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience — helping you bring nature’s beauty into your home effortlessly</p>
+                        <p className='text-center'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
                         <button className='btn bg-green-800 text-white border-none mt-5 hover:bg-green-500'>Explore more</button>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='rounded-2xl'>
                     <div className="bg-cover bg-center text-white p-10 rounded-2xl"
                         style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider2})` }}>
-                        <h1 className='text-green-800 font-bold text-4xl'>Bring Nature Home</h1>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-white font-bold text-5xl'>Bring Nature Home</h1>
                         <p className='my-5'>Learn, nurture, and watch your plants thrive every season.</p>
-                        <p className='text-center'>PlantHub ensures excellence in both design and functionality. By blending elegant visuals with clean, efficient coding, PlantHub allows you to explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience — helping you bring nature’s beauty into your home effortlessly</p>
+                        <p className='text-center'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
                         <button className='btn bg-green-800 text-white border-none mt-5 hover:bg-green-500'>Explore more</button>
                     </div>
                 </SwiperSlide>
+
 
                 <div className="autoplay-progress" slot="container-end">
                     <svg viewBox="0 0 48 48" ref={progressCircle}>
