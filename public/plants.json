@@ -1,0 +1,74 @@
+[
+    {
+        "plantId": 1,
+        "plantName": "Snake Plant",
+        "category": "Air Purifier",
+        "price": 18,
+        "rating": 4.8,
+        "availableStock": 10,
+        "careLevel": "Easy",
+        "description": "A hardy plant that purifies indoor air and thrives in low light. Perfect for beginners.",
+        "image": "https://i.ibb.co.com/hRVHzRVG/snake-plant.png",
+        "providerName": "UrbanGreen Studio"
+    },
+    {
+        "plantId": 2,
+        "plantName": "Peace Lily",
+        "category": "Flowering Plant",
+        "price": 22,
+        "rating": 4.7,
+        "availableStock": 8,
+        "careLevel": "Moderate",
+        "description": "An elegant indoor plant that blooms beautiful white flowers and improves air quality.",
+        "image": "https://i.ibb.co.com/4ZTjv0GR/peace-lily.png",
+        "providerName": "GreenLeaf Nursery"
+    },
+    {
+        "plantId": 3,
+        "plantName": "Areca Palm",
+        "category": "Tropical Plant",
+        "price": 30,
+        "rating": 4.6,
+        "availableStock": 12,
+        "careLevel": "Easy",
+        "description": "A tropical palm that adds lush greenery to any space and acts as a natural humidifier.",
+        "image": "https://i.ibb.co.com/RGcsvWgH/Areca-Palm-2.png",
+        "providerName": "Plantify Store"
+    },
+    {
+        "plantId": 4,
+        "plantName": "Spider Plant",
+        "category": "Air Purifier",
+        "price": 15,
+        "rating": 4.5,
+        "availableStock": 20,
+        "careLevel": "Easy",
+        "description": "A fast-growing indoor plant known for its striped leaves and air-purifying abilities.",
+        "image": "https://i.ibb.co.com/8DzXrz2F/spider-plant.png",
+        "providerName": "LeafyLife"
+    },
+    {
+        "plantId": 5,
+        "plantName": "ZZ Plant",
+        "category": "Low Light",
+        "price": 25,
+        "rating": 4.9,
+        "availableStock": 9,
+        "careLevel": "Very Easy",
+        "description": "Low-maintenance plant with glossy leaves that tolerates neglect and low light.",
+        "image": "https://i.ibb.co.com/8DKDLJD3/zz-plant.png",
+        "providerName": "NatureNest"
+    },
+    {
+        "plantId": 6,
+        "plantName": "Aloe Vera",
+        "category": "Succulent",
+        "price": 20,
+        "rating": 4.7,
+        "availableStock": 15,
+        "careLevel": "Easy",
+        "description": "A succulent plant with healing gel that thrives indoors with minimal watering.",
+        "image": "https://i.ibb.co.com/TDYqLrs8/aloe-vera.png",
+        "providerName": "EcoGrow Farms"
+    }
+]
