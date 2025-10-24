@@ -1,9 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const MyProfile = () => {
     return (
-        <div>
-            <h1>My Profile: </h1>
+        <div className='max-w-7xl mx-auto w-11/12 my-20'>
+            <div className='flex flex-col justify-between items-center gap-10 my-10'>
+                <div className='p-5 shadow-2xl rounded-2xl relative'>
+                    <img className='rounded-2xl' src="https://i.ibb.co.com/p2wwqVc/1.png" alt="Plant Image" />
+                    <div className='flex flex-col justify-center items-center'>
+                        <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950 mt-10'>Name: <span className='text-green-600'>Richard Parker</span></h1>
+                        <p className=' text-green-950 mt-5'><span className='font-bold'>Email: </span><span className='text-green-800'>rechardparker@gmail.com</span></p>
+                        <Link to="/signup" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none w-full'>Update Profile</Link>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

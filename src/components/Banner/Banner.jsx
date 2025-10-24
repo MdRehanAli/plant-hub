@@ -18,6 +18,7 @@ import slider6 from '../../assets/slider6.png';
 import slider7 from '../../assets/slider7.png';
 import slider8 from '../../assets/slider8.png';
 import slider9 from '../../assets/slider9.png';
+import { Link } from 'react-router';
 
 const Banner = () => {
     const progressCircle = useRef(null);
@@ -47,23 +48,92 @@ const Banner = () => {
                     <div className="bg-cover bg-center text-white p-10 rounded-2xl"
                         style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider1})` }}>
                         <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
-                        <h1 className='text-white font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
-                        <p className='my-5'>Learn, nurture, and watch your plants thrive every season.</p>
-                        <p className='text-center hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
-                        <button className='btn bg-green-800 text-white border-none mt-5 hover:bg-green-500'>Explore more</button>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='rounded-2xl'>
                     <div className="bg-cover bg-center text-white p-10 rounded-2xl"
                         style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider2})` }}>
                         <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
-                        <h1 className='text-white font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
-                        <p className='my-5'>Learn, nurture, and watch your plants thrive every season.</p>
-                        <p className='text-center hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
-                        <button className='btn bg-green-800 text-white border-none mt-5 hover:bg-green-500'>Explore more</button>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
                     </div>
                 </SwiperSlide>
-
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider3})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider4})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider5})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider6})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider7})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider8})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='rounded-2xl'>
+                    <div className="bg-cover bg-center text-white p-10 rounded-2xl"
+                        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${slider9})` }}>
+                        <div className='w-32 mb-6 mx-auto'><img className='' src={logo} alt="" /></div>
+                        <h1 className='text-green-400 font-bold text-3xl lg:text-5xl'>Bring Nature Home</h1>
+                        <p className='my-5 text-green-200'>Learn, nurture, and watch your plants thrive every season.</p>
+                        <p className='text-center text-green-400 hidden lg:block'>PlantHub ensures excellence in both design and functionality. You can explore, purchase, and care for your favorite indoor plants with ease. Our platform combines creativity and technology to provide a seamless experience,  helping you bring nature’s beauty into your home effortlessly.</p>
+                        <Link to="/plants" className='btn bg-green-800 border-none text-white mt-5 hover:bg-green-500 shadow-none'>Explore more</Link>
+                    </div>
+                </SwiperSlide>
 
 
                 <div className="autoplay-progress" slot="container-end">

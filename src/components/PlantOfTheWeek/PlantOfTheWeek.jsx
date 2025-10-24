@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlantOfTheWeek = () => {
     return (
-        <div className='max-w-7xl mx-auto w-11/12 my-20'>
+        <div className='max-w-7xl mx-auto w-11/12 mt-20 mb-10'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plants of The Week</h1>
             <p className='text-center text-green-800 mt-5'>Our weekly pick to help you grow your indoor paradise</p>
 

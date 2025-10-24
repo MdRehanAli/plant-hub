@@ -21,7 +21,7 @@ const PlantDetails = () => {
     }
 
     return (
-        <div className='max-w-7xl mx-auto w-11/12 my-20'>
+        <div className='max-w-7xl mx-auto w-11/12 my-10'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plant Details</h1>
             <p className='text-center text-green-800 mt-5'>Each leaf tells a story of growth, resilience, and renewal. Discover the charm, benefits, and nurturing secrets of your indoor plant companion.</p>
 

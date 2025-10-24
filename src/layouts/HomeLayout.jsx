@@ -7,7 +7,9 @@ import { ToastContainer } from 'react-toastify';
 const HomeLayout = () => {
     return (
         <div className='bg-green-100'>
-            <Navbar></Navbar>
+            <section className='relative z-50'>
+                <Navbar></Navbar>
+            </section>
             <Outlet></Outlet>
             <Footer></Footer>
             <ToastContainer></ToastContainer>

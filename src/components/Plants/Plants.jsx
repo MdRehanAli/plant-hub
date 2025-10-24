@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import Plant from './Plant';
 
 const Plants = () => {
@@ -9,7 +9,7 @@ const Plants = () => {
     console.log(plants)
 
     return (
-        <div className='max-w-7xl mx-auto w-11/12 my-20'>
+        <div className='max-w-7xl mx-auto w-11/12 my-10'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>All Plants Collection</h1>
             <p className='text-center text-green-800 mt-5'>Celebrate each season with plants carefully selected for their beauty, resilience, and seasonal charm, ensuring your garden and home are always in perfect bloom.</p>
             <Suspense fallback={<p className='text-center'><span className="loading loading-bars loading-xl"></span></p>}>
@@ -19,6 +19,7 @@ const Plants = () => {
                     }
                 </div>
             </Suspense>
+            <div className='flex justify-center'><Link to="/plants" className='btn px-12 bg-green-500 border-none text-white mt-10 hover:bg-green-500 shadow-none'>Explore more</Link></div>
         </div>
     );
 };
