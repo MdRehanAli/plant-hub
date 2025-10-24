@@ -7,7 +7,7 @@ const PlantOfTheWeek = () => {
             <p className='text-center text-green-800 mt-5'>Our weekly pick to help you grow your indoor paradise</p>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10'>
-                <div className="card shadow-sm hover:scale-110 transition-transform duration-300">
+                <div className="card shadow-sm hover:hue-rotate-180 hover:scale-110 transition-transform duration-300">
                     <figure>
                         <img className=''
                             src="https://i.ibb.co.com/TDYqLrs8/aloe-vera.png"
@@ -33,7 +33,7 @@ const PlantOfTheWeek = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-sm hover:scale-110 transition-transform duration-300">
+                <div className="card shadow-sm hover:hue-rotate-180 hover:scale-110 transition-transform duration-300">
                     <figure>
                         <img className=''
                             src="https://i.ibb.co.com/4ZTjv0GR/peace-lily.png"
@@ -59,7 +59,7 @@ const PlantOfTheWeek = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card shadow-sm hover:scale-110 transition-transform duration-300">
+                <div className="card shadow-sm hover:hue-rotate-180 hover:scale-110 transition-transform duration-300">
                     <figure>
                         <img className=''
                             src="https://i.ibb.co.com/hRVHzRVG/snake-plant.png"

@@ -22,13 +22,13 @@ const PlantDetails = () => {
 
     return (
         <div className='max-w-7xl mx-auto w-11/12 my-20'>
-            <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>All Plants: {plants.length}</h1>
-            <p className='text-center text-green-800 mt-5'>Our team of plant enthusiasts and certified horticulturists are here to help your greens thrive.</p>
+            <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plant Details</h1>
+            <p className='text-center text-green-800 mt-5'>Each leaf tells a story of growth, resilience, and renewal. Discover the charm, benefits, and nurturing secrets of your indoor plant companion.</p>
 
             <div className='flex flex-col xl:flex-row justify-between items-center gap-10 my-10'>
                 <img className='rounded-2xl' src={image} alt="Plant Image" />
                 <div className='p-5 shadow-2xl rounded-2xl relative'>
-                    <p className='text-green-500 text-right absolute right-3 top-3'><small>{providerName}</small></p>
+                    <p className='text-green-500 text-right absolute right-3 top-2'><small>{providerName}</small></p>
                     <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plant: <span className='text-green-600'>{plantName}</span></h1>
                     <p className='text-justify text-green-950 mt-5'><span className='font-bold'>Description: </span><span className='text-green-800'>{description}</span></p>
                     <p className='text-3xl text-bold text-green-950 font-semibold text-center my-4'>Category: <span className='text-green-800'>{category}</span></p>

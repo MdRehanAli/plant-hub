@@ -10,7 +10,7 @@ import './Experts.css';
 
 const Experts = () => {
     return (
-        <div>
+        <div className='max-w-7xl mx-auto w-11/12'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Meet Our Plant Experts</h1>
             <p className='text-center text-green-800 mt-5'>Our team of plant enthusiasts and certified horticulturists are here to help your greens thrive.</p>
 

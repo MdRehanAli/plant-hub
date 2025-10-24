@@ -4,6 +4,7 @@ import PlantCares from '../PlantCares/PlantCares';
 import Experts from '../Experts/Experts';
 import Decoration from '../Decoration/Decoration';
 import PlantOfTheWeek from '../PlantOfTheWeek/PlantOfTheWeek';
+import Plants from '../Plants/Plants';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             </section>
             <main className='max-w-7xl mx-auto w-11/12'>
                 <PlantCares></PlantCares>
+                <Plants></Plants>
                 <Experts></Experts>
                 <Decoration></Decoration>
                 <PlantOfTheWeek></PlantOfTheWeek>

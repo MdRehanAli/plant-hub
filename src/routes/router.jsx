@@ -15,6 +15,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                loader: () => fetch('plants.json'),
                 Component: Home
             },
             {

@@ -10,7 +10,7 @@ const PlantCares = () => {
             <p className='text-center text-green-800 mt-5 mb-16'>Learn the essential tips to keep your indoor plants healthy and happy all year long.</p>
 
             <Marquee pauseOnHover>
-                <div className='flex gap-10 mb-20'>
+                <div className='flex gap-10'>
                     <div className='ml-10 p-10 rounded-2xl bg-green-200 w-[350px]'>
                         <h1 className='text-2xl font-semibold text-center text-green-950'>Garden Design</h1>
                         <p className='text-justify text-green-900 my-3 text-lg'>Imagine stepping into your own private oasis, a garden designed just for you, where every plant, path, and stone tells your story.</p>
