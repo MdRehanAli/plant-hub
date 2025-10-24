@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import PlantCares from '../PlantCares/PlantCares';
 import Experts from '../Experts/Experts';
 import Decoration from '../Decoration/Decoration';
+import PlantOfTheWeek from '../PlantOfTheWeek/PlantOfTheWeek';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <PlantCares></PlantCares>
                 <Experts></Experts>
                 <Decoration></Decoration>
+                <PlantOfTheWeek></PlantOfTheWeek>
             </main>
         </div>
     );
