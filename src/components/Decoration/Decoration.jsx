@@ -2,11 +2,11 @@ import React from 'react';
 
 const Decoration = () => {
     return (
-        <div className='flex flex-col lg:flex-row justify-between items-center gap-10 p-10 bg-gradient-to-b lg:bg-gradient-to-r from-green-100 via-green-200 to-green-300 rounded-2xl my-20'>
+        <div className='flex flex-col lg:flex-row justify-between items-center gap-10 p-5 lg:p-10 bg-gradient-to-b lg:bg-gradient-to-r from-green-100 via-green-200 to-green-300 rounded-2xl mb-20 mt-10 lg:mt-20'>
             <div>
                 <h1 className='lg:text-left text-center text-3xl lg:text-5xl font-bold text-green-950'>Eco Decoration Ideas</h1>
                 <p className='lg:text-left text-center text-green-800 mt-5 mb-8'>Transform your living space with greenery and create a sustainable, stylish oasis.</p>
-                <ul className='ml-12 list-disc text-green-800'>
+                <ul className='ml-5 lg:ml-12 list-disc text-green-800'>
                     <li>Vertical Garden Walls</li>
                     <li>Natural Centerpieces (succulents, candles, pebbles)</li>
                     <li>Wooden and Bamboo Planters</li>

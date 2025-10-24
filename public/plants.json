@@ -7,7 +7,7 @@
         "rating": 4.8,
         "availableStock": 10,
         "careLevel": "Easy",
-        "description": "A hardy plant that purifies indoor air and thrives in low light. Perfect for beginners.",
+        "description": "The Snake Plant, also known as Sansevieria or Mother-in-Law’s Tongue, is one of the most resilient indoor plants that thrives even with minimal care. Its upright sword-shaped leaves are beautifully patterned with shades of green and yellow, making it an excellent choice for home or office decor. This plant is widely recognized for its air-purifying abilities, as it filters harmful toxins like formaldehyde, xylene, and toluene from the air. Unlike most plants, the Snake Plant releases oxygen even at night, which helps improve indoor air quality and supports better sleep. It can survive in low light conditions and requires watering only once every 2–3 weeks, making it ideal for beginners or those with a busy lifestyle. Its architectural form adds a modern touch to interiors, and it can also be placed outdoors in shaded areas. Truly a plant that combines beauty, health, and simplicity.",
         "image": "https://i.ibb.co.com/hRVHzRVG/snake-plant.png",
         "providerName": "UrbanGreen Studio"
     },
@@ -19,7 +19,7 @@
         "rating": 4.7,
         "availableStock": 8,
         "careLevel": "Moderate",
-        "description": "An elegant indoor plant that blooms beautiful white flowers and improves air quality.",
+        "description": "The Peace Lily is a graceful indoor flowering plant known for its lush, glossy green leaves and elegant white blooms that resemble delicate sails. More than just beautiful, it’s an exceptional natural air purifier that removes common household pollutants such as ammonia, benzene, and trichloroethylene. The Peace Lily thrives in low to medium light, making it perfect for offices and shaded corners of your home. It prefers consistently moist soil but can recover quickly even after occasional neglect. Beyond aesthetics, this plant symbolizes peace, prosperity, and purity, often used in interior design and wellness spaces. Its ability to increase indoor humidity makes it beneficial for maintaining respiratory comfort, especially in air-conditioned environments. With proper care, the Peace Lily can bloom multiple times a year, offering both beauty and wellbeing benefits for any living space.",
         "image": "https://i.ibb.co.com/4ZTjv0GR/peace-lily.png",
         "providerName": "GreenLeaf Nursery"
     },
@@ -31,7 +31,7 @@
         "rating": 4.6,
         "availableStock": 12,
         "careLevel": "Easy",
-        "description": "A tropical palm that adds lush greenery to any space and acts as a natural humidifier.",
+        "description": "The Areca Palm, also known as the Butterfly Palm, is a stunning tropical plant that instantly transforms indoor spaces into lush green sanctuaries. Its feathery, arching fronds create a soft, elegant appearance that complements modern and bohemian interiors alike. Recognized by NASA’s Clean Air Study as one of the best air-purifying plants, the Areca Palm efficiently removes toxins and increases humidity, promoting cleaner, fresher air. It’s particularly beneficial for those who spend long hours indoors or in air-conditioned environments. The plant thrives in bright, indirect sunlight and prefers evenly moist soil, but it’s forgiving of minor watering mistakes. Beyond its aesthetic charm, it’s known to boost mood, reduce stress, and enhance indoor oxygen levels. With proper care, the Areca Palm can grow tall and full, making it a natural statement piece that brings tropical serenity and a breath of fresh air to any room.",
         "image": "https://i.ibb.co.com/RGcsvWgH/Areca-Palm-2.png",
         "providerName": "Plantify Store"
     },
@@ -43,7 +43,7 @@
         "rating": 4.5,
         "availableStock": 20,
         "careLevel": "Easy",
-        "description": "A fast-growing indoor plant known for its striped leaves and air-purifying abilities.",
+        "description": "The Spider Plant, scientifically known as Chlorophytum comosum, is one of the most popular and beginner-friendly houseplants in the world. Its long, arching leaves with distinctive green-and-white stripes make it a visually appealing addition to any space. The Spider Plant is highly effective at cleaning the air by removing carbon monoxide, formaldehyde, and xylene, making your home or office environment healthier. It thrives in indirect light and tolerates a wide range of conditions, from dry air to occasional neglect. One of its unique features is the production of baby offshoots or ‘spiderettes’ that can be easily propagated into new plants, making it a gift that keeps giving. In addition to its purifying qualities, the Spider Plant helps increase humidity and can even reduce stress by promoting a sense of calm and relaxation. It’s a timeless, low-maintenance beauty that fits every decor style.",
         "image": "https://i.ibb.co.com/8DzXrz2F/spider-plant.png",
         "providerName": "LeafyLife"
     },
@@ -55,7 +55,7 @@
         "rating": 4.9,
         "availableStock": 9,
         "careLevel": "Very Easy",
-        "description": "Low-maintenance plant with glossy leaves that tolerates neglect and low light.",
+        "description": "The ZZ Plant (Zamioculcas zamiifolia) is a symbol of resilience and effortless beauty, perfect for anyone looking to add greenery without the stress of frequent maintenance. Its glossy, dark green leaves are thick and waxy, helping it store water and survive long periods of neglect. This plant thrives in low-light environments, making it an excellent choice for offices, bedrooms, and shaded corners. It is drought-tolerant and requires watering only once every few weeks, depending on room temperature. The ZZ Plant not only enhances the aesthetic appeal of interiors but also purifies the air by removing toxins like xylene and toluene. Its slow growth and upright form make it ideal for minimalist or modern decor. Beyond its beauty, the ZZ Plant is known in Feng Shui for attracting positive energy and prosperity. It’s a must-have for plant enthusiasts who want style, function, and zero fuss in one green package.",
         "image": "https://i.ibb.co.com/8DKDLJD3/zz-plant.png",
         "providerName": "NatureNest"
     },
@@ -67,7 +67,7 @@
         "rating": 4.7,
         "availableStock": 15,
         "careLevel": "Easy",
-        "description": "A succulent plant with healing gel that thrives indoors with minimal watering.",
+        "description": "Aloe Vera is one of nature’s most versatile and beneficial indoor plants, prized for both its beauty and healing properties. Its fleshy, lance-shaped leaves contain a soothing gel rich in vitamins, minerals, and antioxidants. This gel has been used for centuries in skincare and first aid to treat burns, cuts, and sunburns, while also promoting skin hydration. As an indoor plant, Aloe Vera thrives in bright, indirect sunlight and requires minimal watering—typically once every two to three weeks. It’s an excellent air purifier that helps remove harmful chemicals such as formaldehyde and benzene, improving overall air quality. Easy to grow and propagate, Aloe Vera is perfect for beginners or busy plant lovers. Beyond its practical benefits, it brings a refreshing, minimalist charm to any space and serves as a natural reminder of balance, healing, and vitality.",
         "image": "https://i.ibb.co.com/TDYqLrs8/aloe-vera.png",
         "providerName": "EcoGrow Farms"
     }
