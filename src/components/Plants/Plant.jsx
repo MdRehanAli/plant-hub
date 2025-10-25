@@ -19,7 +19,7 @@ const Plant = ({ plant }) => {
                         <Link className='text-green-600 hover:text-pink-500 font-bold text-md' to={`/plantDetails/${plantId}`} > View Details</Link >
                     </p>
                     {/* <p className='text-3xl text-bold text-green-950 font-semibold text-center my-4'>Category: <span className='text-green-800'>{category}</span></p> */}
-                    <p className='text-5xl text-green-950 font-bold text-center mt-4'>Price: <span className='text-green-500'>${price}</span></p>
+                    <p className='text-3xl lg:text-5xl text-green-950 font-bold text-center mt-4'>Price: <span className='text-green-500'>${price}</span></p>
                     <p className='text-3xl text-center mb-5 text-green-950 font-semibold'>Ratings: <span className='text-yellow-400 font-bold'>{rating}</span></p>
                     <Link className='btn bg-green-800 text-white hover:hue-rotate-180 transition-transform duration-300' to={`/plantDetails/${plantId}`} >View Details</Link >
                 </div>

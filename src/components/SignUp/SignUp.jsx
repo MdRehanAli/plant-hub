@@ -34,7 +34,7 @@ const SignUp = () => {
                                 <input name='password' type={showPassword ? "text" : "password"} className="input w-full" placeholder="Password" />
                                 <button onClick={handleShowPassword} className='absolute top-2 right-5 text-2xl'>{showPassword ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}</button>
                             </div>
-                            <button className="btn bg-green-800 text-white mt-4">Sign Up</button>
+                            <button className="btn bg-green-800 text-white hover:bg-green-700 mt-4">Sign Up</button>
                         </fieldset>
                     </form>
                     <p className='mt-2'>Already have an Account? Please <Link className='underline text-green-800 font-bold' to="/login">Login</Link> </p>

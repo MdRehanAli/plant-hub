@@ -32,7 +32,7 @@ const PlantDetails = () => {
                     <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plant: <span className='text-green-600'>{plantName}</span></h1>
                     <p className='text-justify text-green-950 mt-5'><span className='font-bold'>Description: </span><span className='text-green-800'>{description}</span></p>
                     <p className='text-3xl text-bold text-green-950 font-semibold text-center my-4'>Category: <span className='text-green-800'>{category}</span></p>
-                    <p className='text-5xl text-green-950 font-bold text-center'>Price: <span className='text-green-500'>${price}</span></p>
+                    <p className='text-3xl lg:text-5xl text-green-950 font-bold text-center'>Price: <span className='text-green-500'>${price}</span></p>
                     <div className='flex flex-col justify-between items-center gap-4 my-4'>
                         <p className='text-3xl text-green-950 font-semibold'>Ratings: <span className='text-yellow-400 font-bold'>{rating}</span></p>
                         <p className='text-3xl text-green-950 font-semibold'>In Stock: <span className='text-green-500'>{availableStock}</span></p>

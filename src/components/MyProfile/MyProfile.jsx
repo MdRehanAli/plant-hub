@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const MyProfile = () => {
     return (
-        <div className='max-w-7xl mx-auto w-11/12 my-20'>
+        <div className='max-w-7xl mx-auto w-11/12 my-10'>
             <div className='flex flex-col justify-between items-center gap-10 my-10'>
                 <div className='p-5 shadow-2xl rounded-2xl relative'>
                     <img className='rounded-2xl' src="https://i.ibb.co.com/p2wwqVc/1.png" alt="Plant Image" />

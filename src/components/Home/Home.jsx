@@ -9,7 +9,7 @@ import Plants from '../Plants/Plants';
 const Home = () => {
     return (
         <div className='max-w-7xl mx-auto w-11/12'>
-            <section className='mb-20 lg:m-10'>
+            <section className='mb-20 mt-5 lg:mt-10'>
                 <Banner></Banner>
             </section>
             <main className='max-w-7xl mx-auto w-11/12'>
