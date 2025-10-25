@@ -20,8 +20,8 @@ const PlantOfTheWeek = () => {
                         </h2>
                         <p className='text-justify text-green-800'>Aloe Vera is one of nature’s most versatile and beneficial indoor plants, prized for both its beauty and healing properties. Its fleshy, lance-shaped leaves contain a soothing gel rich in vitamins, minerals, and antioxidants. This gel has been used for centuries in skincare. As an indoor plant, Aloe Vera thrives in bright, indirect sunlight and requires minimal watering—typically once every two to three weeks.</p>
                         <div>
-                            <h4 class="text-lg font-semibold text-green-700">Care Tips:</h4>
-                            <ul class="list-disc list-inside text-green-400 space-y-1">
+                            <h4 className="text-lg font-semibold text-green-700">Care Tips:</h4>
+                            <ul className="list-disc list-inside text-green-400 space-y-1">
                                 <li>Water every 2-3 weeks.</li>
                                 <li>Tolerates low light.</li>
                                 <li>Allow soil to dry between waterings.</li>
@@ -46,8 +46,8 @@ const PlantOfTheWeek = () => {
                         </h2>
                         <p className='text-justify text-green-800'>The Peace Lily is a graceful indoor flowering plant known for its lush, glossy green leaves and elegant white blooms that resemble delicate sails. More than just beautiful, it’s an exceptional natural air purifier that removes common household pollutants such as ammonia, benzene, and trichloroethylene. The Peace Lily thrives in low to medium light, making it perfect for offices and shaded corners of your home.</p>
                         <div>
-                            <h4 class="text-lg font-semibold text-green-700">Care Tips:</h4>
-                            <ul class="list-disc list-inside text-green-400 space-y-1">
+                            <h4 className="text-lg font-semibold text-green-700">Care Tips:</h4>
+                            <ul className="list-disc list-inside text-green-400 space-y-1">
                                 <li>Water every 3-4 weeks.</li>
                                 <li>Tolerates low light.</li>
                                 <li>Allow soil to dry between waterings.</li>
@@ -72,8 +72,8 @@ const PlantOfTheWeek = () => {
                         </h2>
                         <p className='text-justify text-green-800'>A hardy plant that purifies indoor air and thrives in low light, perfect for beginners. Known for its long, upright leaves with yellow edges, the Snake Plant not only looks elegant but also improves air quality by removing toxins such as formaldehyde and benzene. Ideal for bedrooms and offices, it requires minimal care and adds a natural modern vibe to any space.</p>
                         <div>
-                            <h4 class="text-lg font-semibold text-green-700">Care Tips:</h4>
-                            <ul class="list-disc list-inside text-green-400 space-y-1">
+                            <h4 className="text-lg font-semibold text-green-700">Care Tips:</h4>
+                            <ul className="list-disc list-inside text-green-400 space-y-1">
                                 <li>Water every 2-3 weeks.</li>
                                 <li>Tolerates low light.</li>
                                 <li>Allow soil to dry between waterings.</li>

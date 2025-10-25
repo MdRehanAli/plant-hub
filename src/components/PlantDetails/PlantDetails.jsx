@@ -50,10 +50,10 @@ const PlantDetails = () => {
                             <fieldset className="fieldset">
                                 {/* Name Field */}
                                 <label className="label">Name</label>
-                                <input name='name' type="text" className="input w-full" placeholder="Name" />
+                                <input name='name' type="text" className="input w-full" placeholder="Name" required/>
                                 {/* Email Field */}
                                 <label className="label">Email</label>
-                                <input name='email' type="email" className="input w-full" placeholder="Email" />
+                                <input name='email' type="email" className="input w-full" placeholder="Email" required/>
                                 <button className="btn bg-green-800 text-white mt-4">Book Now</button>
                             </fieldset>
                         </form>

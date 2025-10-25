@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Link, NavLink } from 'react-router';
 import './Navbar.css'
+import { AuthContext } from '../../provider/AuthProvider';
+import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 
 const Navbar = () => {
+    const { user, logOut } = use(AuthContext)
+
+    const handleSignOut = () => {
+        console.log("Usr tying to Logout")
+        logOut()
+            .then(() => {
+                toast.success("Logged Out Successfully!")
+            })
+            .catch((error) => {
+                console.log(error.message)
+            })
+    }
 
     const links = <>
         <li><NavLink to='/'>Home</NavLink></li>
@@ -30,10 +45,17 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <NavLink to='/login' className="p-2 btn bg-transparent text-white border-none shadow-none">Login</NavLink>
-                <NavLink to='/signup' className="p-2 btn bg-transparent text-white border-none shadow-none">SignUp</NavLink>
-            </div>
+            {
+                user ?
+                    (<div className="navbar-end">
+                        <button onClick={handleSignOut} className="p-2 btn bg-transparent text-white border-none shadow-none">SignOut</button>
+                    </div>)
+                    :
+                    (<div className="navbar-end">
+                        <NavLink to='/login' className="p-2 btn bg-transparent text-white border-none shadow-none">Login</NavLink>
+                        <NavLink to='/signup' className="p-2 btn bg-transparent text-white border-none shadow-none">SignUp</NavLink>
+                    </div>)
+            }
         </div>
     );
 };
