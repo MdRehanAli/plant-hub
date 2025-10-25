@@ -9,7 +9,7 @@ import sunlight from "../../../src/assets/sunlight.png";
 
 const PlantCares = () => {
     return (
-        <div>
+        <div className='pb-10'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Plant Growth & Care</h1>
             <p className='text-center text-green-800 mt-5 mb-16'>Learn the essential tips to keep your indoor plants healthy and happy all year long.</p>
 

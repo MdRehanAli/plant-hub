@@ -10,7 +10,7 @@ import './Experts.css';
 
 const Experts = () => {
     return (
-        <div className='max-w-7xl mx-auto w-11/12'>
+        <div className='max-w-7xl mx-auto w-11/12 pt-10'>
             <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950'>Meet Our Plant Experts</h1>
             <p className='text-center text-green-800 mt-5'>Our team of plant enthusiasts and certified horticulturists are here to help your greens thrive.</p>
 
@@ -32,54 +32,78 @@ const Experts = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div className='p-10 rounded-2xl bg-green-200'>
-                        {/* <img src={} alt="" /> */}
-                        <h1 className='text-2xl font-semibold text-center text-green-950'>Garden Design</h1>
-                        <p className='text-justify text-green-900 my-3 text-lg'>Imagine stepping into your own private oasis, a garden designed just for you, where every plant, path, and stone tells your story.</p>
-                        <div className='flex justify-between items-center text-lg'>
-                            <p className='text-green-500'>Care Rating:</p>
-                        </div>
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/8B7p04B/5.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Richard Hang</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Herbal Plants & Aromatics Expert</p>
+                        <p className='text-green-900 text-center text-sm'>Milan, Italy</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="card shadow-sm">
-                        <figure className="">
-                            <img
-                                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                alt="Shoes"
-                                className="rounded-xl" />
-                        </figure>
-                        <div className="card-body items-center text-center">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="card-actions">
-                                <button className="btn btn-primary">Buy Now</button>
-                            </div>
-                        </div>
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/10HLzGp/4.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Hans Porro</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Plant Nutrition Specialist</p>
+                        <p className='text-green-900 text-center text-sm'>Adelade, Australia</p>
                     </div>
-                    {/* <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> */}
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/nDLhHBy/6.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Leafy Thompson</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Indoor Gardening Expert</p>
+                        <p className='text-green-900 text-center text-sm'>New York, USA</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/ZTMkr6X/aiony.jpg" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Ms. Ivy Bloom</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Flowering Plants Specialist</p>
+                        <p className='text-green-900 text-center text-sm'>Hedingly, UK</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/7JpWfNM/2.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Dr. Fern Woods</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Houseplant Care Expert</p>
+                        <p className='text-green-900 text-center text-sm'>Manchester, UK</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/QJyT5C8/3.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Mr. Oakley Roots</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Soil & Fertilization Specialist</p>
+                        <p className='text-green-900 text-center text-sm'>Florida, USA</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/p2wwqVc/1.png" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Ms. Daisy Petal</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Succulent & Cactus Expert</p>
+                        <p className='text-green-900 text-center text-sm'>Madrid, Spain</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                        <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/SDtJCzM7/yam.jpg" alt="" />
+                        <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Dr. Sage Garden</h1>
+                        <p className='text-green-600 my-1 text-lg text-center'>Organic Gardening Consultant</p>
+                        <p className='text-green-900 text-center text-sm'>Paris, France</p>
+                    </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='px-12 pt-3 pb-1 rounded-2xl bg-green-200'>
+                            <img className='max-w-[200px] mx-auto rounded-2xl' src="https://i.ibb.co.com/xqHF96vM/tom.jpg" alt="" />
+                            <h1 className='text-2xl font-semibold text-center text-green-950 mt-5'>Richard Ralf</h1>
+                            <p className='text-green-600 my-1 text-lg text-center'>Indoor Air-Purifying Plants Specialistt</p>
+                            <p className='text-green-900 text-center text-sm'>London, UK</p>
+                        </div>
+                    </SwiperSlide>
+                
             </Swiper>
 
 

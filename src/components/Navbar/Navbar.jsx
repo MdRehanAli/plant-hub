@@ -48,12 +48,13 @@ const Navbar = () => {
             {
                 user ?
                     (<div className="navbar-end">
-                        <button onClick={handleSignOut} className="p-2 btn bg-transparent text-white border-none shadow-none">SignOut</button>
+                        <img className='rounded-full max-w-[40px] mr-1' src={user.photoURL} alt="User Image" />
+                        <button onClick={handleSignOut} className="p-2 btn bg-transparent text-white border-none shadow-none hover:bg-green-900">SignOut</button>
                     </div>)
                     :
                     (<div className="navbar-end">
-                        <NavLink to='/login' className="p-2 btn bg-transparent text-white border-none shadow-none">Login</NavLink>
-                        <NavLink to='/signup' className="p-2 btn bg-transparent text-white border-none shadow-none">SignUp</NavLink>
+                        <NavLink to='/login' className="p-2 btn bg-transparent text-white border-none shadow-none hover:bg-green-900">Login</NavLink>
+                        <NavLink to='/signup' className="p-2 btn bg-transparent text-white border-none shadow-none hover:bg-green-900">SignUp</NavLink>
                     </div>)
             }
         </div>
