@@ -9,7 +9,7 @@ const MyProfile = () => {
             <h1 className='text-3xl lg:text-5xl text-center text-green-950 font-bold'>My Profile Details</h1>
             <div className='flex flex-col justify-between items-center gap-10 my-10'>
                 <div className='p-5 shadow-2xl rounded-2xl relative'>
-                    <img className='rounded-2xl w-[300px] mx-auto' src={user && user.photoURL} alt="Plant Image" />
+                    <img className='rounded-2xl w-[300px] mx-auto' src={user && user.photoURL} alt="Provide correct image url to view" />
                     <div className='flex flex-col justify-center items-center'>
                         <h1 className='text-center text-3xl lg:text-5xl font-bold text-green-950 mt-10'>Name: <span className='text-green-600'>{user && user.displayName}</span></h1>
                         <p className=' text-green-950 mt-5'><span className='font-bold'>Email: </span><span className='text-green-800'>{user && user.email}</span></p>
