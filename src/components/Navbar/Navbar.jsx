@@ -15,7 +15,7 @@ const Navbar = () => {
                 toast.success("Logged Out Successfully!")
             })
             .catch((error) => {
-                console.log(error.message)
+                toast.error(error.message)
             })
     }
 

@@ -1,11 +1,36 @@
-import React, { useState } from 'react';
+import React, { use, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { Link } from 'react-router';
+import { AuthContext } from '../../provider/AuthProvider';
+import { toast } from 'react-toastify';
 
 const Login = () => {
 
-    const [showPassword, setShowPassword] = useState(false)
+    const { signIn } = use(AuthContext);
+
+    const [showPassword, setShowPassword] = useState(false);
+
+    const handleSignIn = (event) => {
+        event.preventDefault();
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(email, password);
+
+        signIn(email, password)
+            .then((result)=> {
+                const user = result.user;
+                console.log(user);
+                toast.success("Login Successfully!");
+                form.reset()
+            })
+            .catch((error)=>{
+                const errorMessage = error.message;
+                toast.error(errorMessage)
+            })
+
+    }
 
     const handleShowPassword = (event) => {
         event.preventDefault();
@@ -17,7 +42,7 @@ const Login = () => {
             <div className="card w-full max-w-sm shrink-0 shadow-2xl">
                 <div className="card-body">
                     <h1 className="text-5xl font-bold text-green-950 text-center mt-2 mb-5">Login now!</h1>
-                    <form>
+                    <form onSubmit={handleSignIn}>
                         <fieldset className="fieldset">
                             {/* Email Field */}
                             <label className="label">Email</label>
@@ -29,7 +54,7 @@ const Login = () => {
                                 <button onClick={handleShowPassword} className='absolute top-2 right-5 text-2xl'>{showPassword ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}</button>
                             </div>
                             <div><a className="link link-hover">Forgot password?</a></div>
-                            <button className="btn bg-green-800 text-white mt-4 hover:bg-green-700">Login</button>
+                            <button type='submit' className="btn bg-green-800 text-white mt-4 hover:bg-green-700">Login</button>
                         </fieldset>
                     </form>
                     <button className='btn btn-outline w-full text-green-800 hover:bg-green-700 hover:text-white'><FcGoogle className='text-2xl'></FcGoogle> Login with Google</button>

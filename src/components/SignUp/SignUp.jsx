@@ -2,6 +2,7 @@ import { use, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link } from 'react-router';
 import { AuthContext } from '../../provider/AuthProvider';
+import { toast } from 'react-toastify';
 
 const SignUp = () => {
 
@@ -22,11 +23,13 @@ const SignUp = () => {
                 const user = result.user;
                 // console.log(user);
                 setUser(user);
+                toast.success("User Sign up Successfully")
+                form.reset()
             })
             .catch((error) => {
-                const errorCode = error.code;
+                // const errorCode = error.code;
                 const errorMessage = error.message;
-                alert(errorMessage)
+                toast.error(errorMessage)
             })
     }
 
