@@ -7,6 +7,7 @@ import Login from "../components/Login/Login";
 import SignUp from "../components/SignUp/SignUp";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import PlantDetails from "../components/PlantDetails/PlantDetails";
+import PrivateRoute from "../provider/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -26,7 +27,8 @@ const router = createBrowserRouter([
             {
                 path: '/plantDetails/:id',
                 loader: () => fetch('plants.json'),
-                Component: PlantDetails
+                element: <PrivateRoute><PlantDetails></PlantDetails>
+                </PrivateRoute>
             },
             {
                 path: '/myprofile',

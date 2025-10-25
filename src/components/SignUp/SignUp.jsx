@@ -1,20 +1,42 @@
 import { use, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Link } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../provider/AuthProvider';
 import { toast } from 'react-toastify';
 
 const SignUp = () => {
 
-    const { createUser, setUser } = use(AuthContext)
+    const { createUser, setUser, updateUser } = use(AuthContext)
+    const [nameError, setNameError] = useState("");
+    const [passwordError, setPasswordError] = useState("");
 
+    const navigate = useNavigate();
+    const location = useLocation();
     const handleSignUp = (event) => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
+        if (name.length < 5) {
+            setNameError("Name should be more then 5 character");
+            return;
+        }
+        else {
+            setNameError("");
+        }
         const email = form.email.value;
         const photo = form.photo.value;
         const password = form.password.value;
+        // Validate Password 
+        const validatePassword = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
+
+        // 🔍 Check if password matches
+        if (!validatePassword.test(password)) {
+            setPasswordError("Opps! Password must be at least 6 characters long, include at least one uppercase letter, one lowercase letter");
+            return
+        }
+
+        // reset status: success or error 
+        setPasswordError('');
 
         console.log(name, email, photo, password);
 
@@ -22,15 +44,23 @@ const SignUp = () => {
             .then(result => {
                 const user = result.user;
                 // console.log(user);
-                setUser(user);
+                updateUser({ displayName: name, photoURL: photo })
+                    .then(() => {
+                        setUser({ ...user, displayName: name, photoURL: photo });
+                        navigate(location.state || '/');
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                        setUser(user);
+                    });
                 toast.success("User Sign up Successfully")
-                form.reset()
+                form.reset();
             })
             .catch((error) => {
                 // const errorCode = error.code;
                 const errorMessage = error.message;
                 toast.error(errorMessage)
-            })
+            });
     }
 
 
@@ -66,6 +96,16 @@ const SignUp = () => {
                             </div>
                             <button type='submit' className="btn bg-green-800 text-white hover:bg-green-700 mt-4">Sign Up</button>
                         </fieldset>
+                        {
+                            passwordError && <div>
+                                <p className='text-red-500 text-center'>{passwordError}</p>
+                            </div>
+                        }
+                        {
+                            nameError && <div>
+                                <p className='text-red-500 text-center'>{nameError}</p>
+                            </div>
+                        }
                     </form>
                     <p className='mt-2'>Already have an Account? Please <Link className='underline text-green-800 font-bold' to="/login">Login</Link> </p>
                 </div>
