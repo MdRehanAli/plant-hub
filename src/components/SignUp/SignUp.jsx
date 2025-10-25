@@ -26,10 +26,11 @@ const SignUp = () => {
         const email = form.email.value;
         const photo = form.photo.value;
         const password = form.password.value;
+
         // Validate Password 
         const validatePassword = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
 
-        // 🔍 Check if password matches
+        //  Check if password matches
         if (!validatePassword.test(password)) {
             setPasswordError("Opps! Password must be at least 6 characters long, include at least one uppercase letter, one lowercase letter");
             return
